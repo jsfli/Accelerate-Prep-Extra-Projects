@@ -1,9 +1,23 @@
 header {
-  background-color: yellow;
+  background-color: #F1D8A4;
   text-align: center;
   padding: 2em 2em;
 }
 
 h1 {
   font-size: 50px;
+}
+
+.mainDiv {
+  background-color: #E0E0E0;
+}
+
+.greenBox {
+  background-color: #7EB07C;
+  width: 30%;
+  float: left;
+}
+
+.greyBox {
+  padding-left: 10px;
 }
