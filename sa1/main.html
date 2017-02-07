@@ -14,46 +14,40 @@
   </head>
 
   <body>
-    <!--This is the Header Section-->
-    <header>
-     <div class="container-fluid">
-        <h1>Ping Pong</h1>
+
+  <div class="header">
+    <h1>Ping Pong</h1>
+  </div>
+
+    <div class="mainContent">
+
+      <div class="greenBox col-sm-4">
+        <h2>About Ping Pong</h2>
+          <h3>Created by: </h3>
+            <p>Jeffrey Li</p>
+              <h3>GitHub Username</h3>
+                <p>jsfli</p>
       </div>
-    </header>
 
-    <!--This is the mainbody-->
+        <div class="greyBox col-sm-8">
+            <h2>Let's Play</h2>
+              <h3>Rules: </h3>
+                <p>Ping Pong will count up to your number from 1 with the following exception:</P>
+            <ol>
+              <li>Numbers divisible by 3 become "Ping"</li>
+              <li>Numbers divisible by 5 become "Pong"</li>
+              <li>Numbers divisible by 3 and 5 become "Ping-Pong"</li>
+            </ol>
 
-    <div class="mainDiv">
+            <form>
+            <b>Enter your number here:</b>
+            <input id="input" type="text" name="numInput" placeholder="e.g. 17">
+            <button id="button" class="btn btn-primary" type="button">Ping-Pong!</button>
+            </form>
 
-        <!--This is the greenbox section-->
-        <div class="greenBox container">
-          <h2>About Ping Pong</h2>
-            <h3>Created by: </h3>
-              <p>Jeffrey Li</p>
-                <h3>GitHub Username</h3>
-                  <p>jsfli</p>
+            <ul id="result">
+            </ul>
         </div>
-  <!--This is the calculator section-->
-                        <div class="greyBox container">
-                          <h2>Let's Play</h2>
-                            <h3>Rules: </h3>
-                              <p>Ping Pong will count up to your number from 1 with the following exception:</P>
-                                <ol>
-                                  <li>Numbers divisible by 3 become "Ping"</li>
-                                  <li>Numbers divisible by 5 become "Pong"</li>
-                                  <li>Numbers divisible by 3 and 5 become  "Ping-Pong"</li>
-                                </ol>
-                        <!--This is the form-->
-                                    <form>
-                                      <b>Enter your number here:</b>
-                                        <input id="input" type="text" name="numInput" placeholder="e.g. 17">
-                                          <button id="button" class="btn btn-primary" type="button">Ping-Pong!</button>
-                                            </form>
-                            <!--Print out results here-->
-                                              <ul id="result">
-                                              </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </body>
+      </div>
+  </body>
 </html>
