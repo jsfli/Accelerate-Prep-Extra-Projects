@@ -1,0 +1,22 @@
+body{
+  background-color: grey;
+}
+
+div{
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+}
+
+.jumbotron {
+  background-image: url("assets/backgrounds/landing.jpg");
+  background-size: cover;
+  color: white;
+  padding: 3em 15em;
+  margin-bottom: 0;
+}
+.jumbotron h1{
+  font-size: 4em;
+}
+
+h3 {}
